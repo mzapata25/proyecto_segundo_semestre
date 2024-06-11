@@ -28,7 +28,7 @@ int Cine::getNumSalas()const{
 
 string Cine::to_string(){
 	stringstream aux;
-	aux << "Nombre del cine: " << nombre << "\nHora de apertura: " << hora_apertura << "\nHora de cierre: " << hora_cierre << "\nDias de apertura: " << dias_apertura << "\nUbicado en la planta: " << planta << "\nPropietario: " << propietario << "\nNúmero de salas: " << numero_salas << "\n";
+	aux << "Nombre del cine: " << nombre << "\nHora de apertura: " << hora_apertura << "\nHora de cierre: " << hora_cierre << "\nDias de apertura: " << dias_apertura << "\nUbicado en la planta: " << planta << "\nPropietario: " << propietario << "\nNúmero de salas: " << numero_salas << "\n" << "\n";
 	return aux.str();
 }
 
