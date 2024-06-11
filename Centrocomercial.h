@@ -92,7 +92,7 @@ void Centro_comercial::crea_tienda_usuario(){
 			getline(cin,nombre_crear);
 			cout << "\nIntroduce la hora de apertura: " << endl;
 			getline(cin,apertura_crear);
-			cout << "\nIntroduce la hora de ciere: " << endl;
+			cout << "\nIntroduce la hora de cierre: " << endl;
 			getline(cin,cierre_crear);
 			cout << "\nIntroduce los días de apertura: " << endl;
 			getline(cin,dias_crear);
@@ -138,11 +138,11 @@ void Centro_comercial::crea_restaurante_usuario(){
 			getline(cin,nombre_crear);
 			cout << "\nIntroduce la hora de apertura: " << endl;
 			getline(cin,apertura_crear);
-			cout << "\nIntroduce la hora de ciere: " << endl;
+			cout << "\nIntroduce la hora de cierre: " << endl;
 			getline(cin,cierre_crear);
 			cout << "\nIntroduce los días de apertura: " << endl;
 			getline(cin,dias_crear);
-			cout << "\nIntroduce la planta en la que está ubicada: " << endl;
+			cout << "\nIntroduce la planta en la que está ubicado: " << endl;
 			cin >> planta_crear;
 			cout << "\nIntroduce el propietario del restaurante: " << endl;
 			cin.ignore(1, '\n');
@@ -183,11 +183,11 @@ void Centro_comercial::crea_cine_usuario(){
 			getline(cin,nombre_crear);
 			cout << "\nIntroduce la hora de apertura: " << endl;
 			getline(cin,apertura_crear);
-			cout << "\nIntroduce la hora de ciere: " << endl;
+			cout << "\nIntroduce la hora de cierre: " << endl;
 			getline(cin,cierre_crear);
 			cout << "\nIntroduce los días de apertura: " << endl;
 			getline(cin,dias_crear);
-			cout << "\nIntroduce la planta en la que está ubicada: " << endl;
+			cout << "\nIntroduce la planta en la que está ubicado: " << endl;
 			cin >> planta_crear;
 			cout << "\nIntroduce el propietario del cine: " << endl;
 			cin.ignore(1, '\n');
