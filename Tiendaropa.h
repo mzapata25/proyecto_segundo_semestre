@@ -28,7 +28,7 @@ string Tienda_ropa::getTipoR()const{
 
 string Tienda_ropa::to_string(){
 	stringstream aux;
-	aux << "Nombre de la tienda: " << nombre << "\nHora de apertura: " << hora_apertura << "\nHora de cierre: " << hora_cierre << "\nDias de apertura: " << dias_apertura << "\nUbicado en la planta: " << planta << "\nPropietario: " << propietario << "\nTipo de ropa: " << tipo_ropa << "\n";
+	aux << "Nombre de la tienda: " << nombre << "\nHora de apertura: " << hora_apertura << "\nHora de cierre: " << hora_cierre << "\nDias de apertura: " << dias_apertura << "\nUbicado en la planta: " << planta << "\nPropietario: " << propietario << "\nTipo de ropa: " << tipo_ropa << "\n" << "\n";
 	return aux.str();
 }
 #endif
