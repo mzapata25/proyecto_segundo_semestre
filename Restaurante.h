@@ -39,7 +39,7 @@ string Restaurante::getLicencia()const{
 
 string Restaurante::to_string(){
 	stringstream aux;
-	aux << "Nombre del restaurante: " << nombre << "\nHora de apertura: " << hora_apertura << "\nHora de cierre: " << hora_cierre << "\nDias de apertura: " << dias_apertura << "\nUbicado en la planta: " << planta << "\nPropietario: " << propietario << "\nTipo de restaurante: " << tipo_restaurante << "\nVenta de alcohol: "<< licencia_alcohol <<"\n";
+	aux << "Nombre del restaurante: " << nombre << "\nHora de apertura: " << hora_apertura << "\nHora de cierre: " << hora_cierre << "\nDias de apertura: " << dias_apertura << "\nUbicado en la planta: " << planta << "\nPropietario: " << propietario << "\nTipo de restaurante: " << tipo_restaurante << "\nVenta de alcohol: "<< licencia_alcohol <<"\n" << "\n";
 	return aux.str();
 }
 #endif
