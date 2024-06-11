@@ -100,3 +100,8 @@ string Negocio::getPropietario()const{
 }
 
 #endif
+string Negocio::getPropietario()const{
+	return propietario;
+}
+
+#endif
