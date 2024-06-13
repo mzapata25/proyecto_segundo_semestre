@@ -1,5 +1,14 @@
-#include<iostream>
-#include "Centrocomercial.h"
+/*
+ * Proyecto Segundo Semestre main
+ * A01708573
+ * 13-06-2024
+ *
+ * Este es un proyecto integrador para la clase TC1030 Programación Orientada a Objetos.
+ * Es un programa que permite crear diferentes tipos de negocios en un centro comercial.
+ */
+
+#include<iostream> // para imprimir
+#include "Centrocomercial.h" // bibliotecas con objetos del proyecto
 #include "Negocio.h"
 #include "Tiendaropa.h"
 #include "Restaurante.h"
