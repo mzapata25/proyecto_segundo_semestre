@@ -1,3 +1,13 @@
+/*
+ *
+ * Proyecto integrador clase Negocio
+ * Mateo Rodrigo Zapata Crapa
+ * A01708573
+ * 13-06-2024
+ * Esta clase defina objeto de tipo Negocio que contiene las clases heredadas
+ * Tienda_ropa, Restaurante y Cine.
+ */
+
 #ifndef NEGOCIO_H_
 #define NEGOCIO_H_
 
@@ -7,7 +17,9 @@
 
 using namespace std;
 
+//Declaracion de clase Negocio que es abstracta
 class Negocio{
+    //Declaro variables protegidas
     protected:
         string nombre{};
         string hora_apertura{};
@@ -15,6 +27,7 @@ class Negocio{
         string dias_apertura{};
         int planta{};
         string propietario{};
+    //Declaro métodos públicos del objeto
     public:
         Negocio();
         Negocio(string n, string h_a, string h_c, string d_a, int pl, string pr);
@@ -30,7 +43,7 @@ class Negocio{
 		int getPlanta() const;
 		void setPropietario(string nuevoPropietario);
 		string getPropietario() const;
-		virtual string to_string() = 0;
+		virtual string to_string() = 0; // Método abstracto sera sobreescrito.
 };
 
 Negocio::Negocio(){
