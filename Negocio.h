@@ -1,6 +1,6 @@
 /*
  *
- * Proyecto integrador clase Negocio
+ * Proyecto Segundo semestre clase Negocio
  * Mateo Rodrigo Zapata Crapa
  * A01708573
  * 13-06-2024
