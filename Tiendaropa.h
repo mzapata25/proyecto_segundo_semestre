@@ -8,14 +8,16 @@
 using namespace std;
 
 class Tienda_ropa: public Negocio{
+    //Declaro variables privadas
     private:
         string tipo_ropa{};
+    //Declaro métodos públicos
     public:
         Tienda_ropa(): Negocio(){};
         Tienda_ropa(string n, string h_a, string h_c, string d_a, int pl, string pr, string t_r): Negocio(n, h_a, h_c, d_a, pl, pr), tipo_ropa(t_r){};
-		void setTipoR(string nuevoTipoR);
-		string getTipoR() const;
-		string to_string();
+	void setTipoR(string nuevoTipoR);
+	string getTipoR() const;
+	string to_string();
 };
 
 void Tienda_ropa::setTipoR(string nuevoTipoR){
@@ -25,6 +27,15 @@ void Tienda_ropa::setTipoR(string nuevoTipoR){
 string Tienda_ropa::getTipoR()const{
 	return tipo_ropa;
 }
+
+/**
+ * to_string convierte a atributos a string.
+ *
+ * concatena todos los valores de los atributos en un string para ser impreso
+ *
+ * @param
+ * @return string con los valores y texto concatenado.
+ */
 
 string Tienda_ropa::to_string(){
 	stringstream aux;
